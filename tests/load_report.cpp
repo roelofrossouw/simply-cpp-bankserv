@@ -10,7 +10,7 @@
 //   two-statuses.txt       REJECTED ON LOAD running into ACCEPTED ON LOAD on the next page with no end
 //                          line between, and a reject code without its labels
 // and the edge cases: nothing, lines before a report, UTF-8, and no end line.
-#include <sc/bankserv/sc_bankserv.h>
+#include <sc/bankserv/bankserv.h>
 #include <sc_test.h>
 
 #include <fstream>

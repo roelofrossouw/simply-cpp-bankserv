@@ -3,7 +3,7 @@
 //
 //     sc-bankserv-demo FILE...
 //     sc-bankserv-demo --summary FILE...
-#include <sc/bankserv/sc_bankserv.h>
+#include <sc/bankserv/bankserv.h>
 
 #include <sc/core/params.h>
 

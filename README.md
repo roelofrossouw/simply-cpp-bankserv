@@ -5,7 +5,7 @@ report** on a debit order or payment file sent host-to-host (FNB's `FTPTCPIP.FNB
 into its parts. It needs nothing beyond sc-core and the standard library.
 
 ```cpp
-#include <sc/bankserv/sc_bankserv.h>
+#include <sc/bankserv/bankserv.h>
 
 const auto report = sc::bankserv::read_load_report(contents);  // the file's bytes, as received
 if (report.outcome.rejected) ...;                               // the data set or the file was rejected
