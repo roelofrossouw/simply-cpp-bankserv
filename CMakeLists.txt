@@ -9,7 +9,7 @@ get_sc_version()
 message(STATUS "SimplyCPP ${SC_MODULE} Version: ${SC_VERSION}")
 
 # sc-core for the helpers and the example's sc::params; the reader itself uses only the standard library.
-find_or_install_package(sc-core simply-cpp-dev simply-cpp 3.0.0)
+find_or_install_package(sc-core simply-cpp-dev simply-cpp 4.0.0)
 
 set(SOURCE_OBJECTS)
 set(SOURCE_LIBRARIES)
@@ -33,4 +33,4 @@ endif ()
 
 add_sc_example(sc-bankserv-demo LINK_LIBRARIES sc::sc-core sc::sc-bankserv-shared)
 
-package_sc_module(DEV_DEPENDS "simply-cpp-dev (>= 3.0.0~)")
+package_sc_module(DEV_DEPENDS "simply-cpp-dev (>= 4.0.0~)")
